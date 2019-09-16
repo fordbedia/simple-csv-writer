@@ -1,0 +1,19 @@
+{
+    "name": "fordbedia/simple-csv-writer",
+    "description": "PHP simple csv writer",
+    "type": "composer-plugin",
+    "authors": [
+        {
+            "name": "Ford Bedia",
+            "email": "fordbedia@gmail.com"
+        }
+    ],
+    "require": {
+      "php": ">=7.1"
+    },
+    "autoload": {
+      "psr-4": {
+        "SimpleCSVWriter\\": "src/"
+      }
+    }
+}
