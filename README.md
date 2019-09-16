@@ -9,6 +9,8 @@ composer require fordbedia/simple-csv-writer
 ## Sample Usage
 
 ```
+use SimpleCSVWriter\SimpleCSVWriter;
+
 $csv = SimpleCSVWriter::create('testcsv');
 
 $csv->addHeader('This is a test header');
@@ -40,6 +42,8 @@ $csv->close();
 You can also instantiate the class
 
 ```
+use SimpleCSVWriter\SimpleCSVWriter;
+
 $csv = new SimpleCSVWriter('testcsv--with-instantiation');
 
 $arr = [
