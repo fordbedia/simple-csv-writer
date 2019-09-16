@@ -1,13 +1,20 @@
 {
     "name": "fordbedia/simple-csv-writer",
     "description": "PHP simple csv writer",
-    "type": "composer-plugin",
+    "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Ford Bedia",
             "email": "fordbedia@gmail.com"
         }
     ],
+    "keywords": [
+      "csv",
+      "api",
+      "sdk"
+    ],
+    "homepage": "https://github.com/fordbedia/simple-csv-writer",
     "require": {
       "php": ">=7.1"
     },
